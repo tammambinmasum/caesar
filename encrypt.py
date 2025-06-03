@@ -20,7 +20,6 @@ def caesar_cipher(text, key, mode):
             start = ord('a')
             shifted_char_code = (ord(char) - start + key) % 26 + start
             result += chr(shifted_char_code)
-
         elif 'A' <= char <= 'Z':
             start = ord('A')
             shifted_char_code = (ord(char) - start + key) % 26 + start
